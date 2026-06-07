@@ -1,0 +1,39 @@
+[
+  {
+    "id": "t1",
+    "quote": "Daniel walked with us through our hardest season. He did not just teach — he listened, prayed, and stayed.",
+    "author": "María Elena Rojas",
+    "role": "Women's ministry leader, Lima",
+    "type": "quote"
+  },
+  {
+    "id": "t2",
+    "quote": "Because of the youth program, my son found a community that pointed him to Christ. We are forever grateful.",
+    "author": "Carlos Mendoza",
+    "role": "Parent & church elder",
+    "type": "quote"
+  },
+  {
+    "id": "t3",
+    "title": "A Village Transformed",
+    "body": "When Daniel first arrived in the highland village of Kishuar, few families attended any form of worship. Over three years of consistent visits, Bible teaching, and practical aid during flood seasons, a small congregation formed. Today, fifteen families gather weekly, led by a Peruvian pastor Daniel mentored from his first days in faith.",
+    "author": "Pastor Luis Quispe",
+    "role": "Highland church planter",
+    "type": "story"
+  },
+  {
+    "id": "t4",
+    "title": "Reflections on Service",
+    "body": "Looking back on eight years in Peru, I am humbled by what God accomplished through faithful partnership — not solo effort. The churches that thrive today are led by Peruvian believers who carry the vision forward. My prayer is that their light continues to spread through every valley and city street we were privileged to walk.",
+    "author": "Daniel Mckinley",
+    "role": "Missionary",
+    "type": "story"
+  },
+  {
+    "id": "t5",
+    "quote": "He equipped our leaders with tools we still use every week. His legacy is in our pulpits and our prayers.",
+    "author": "Rev. Ana Torres",
+    "role": "Pastor, Iglesia Vida Nueva",
+    "type": "quote"
+  }
+]

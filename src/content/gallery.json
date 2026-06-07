@@ -1,0 +1,86 @@
+[
+  {
+    "id": "g1",
+    "src": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&auto=format&fit=crop&q=80",
+    "alt": "Colorful buildings on a hillside in Peru",
+    "caption": "A hillside neighborhood in Lima — one of the first communities Daniel served.",
+    "category": "Communities"
+  },
+  {
+    "id": "g2",
+    "src": "https://images.unsplash.com/photo-1526392060635-9d8bd978258f?w=800&auto=format&fit=crop&q=80",
+    "alt": "Community members gathered outdoors",
+    "caption": "Sunday fellowship after an outreach visit in the highlands.",
+    "category": "Ministry Work"
+  },
+  {
+    "id": "g3",
+    "src": "https://images.unsplash.com/photo-1438030088763-7e693ecd86f8?w=800&auto=format&fit=crop&q=80",
+    "alt": "Interior of a small church",
+    "caption": "A growing house church supported through discipleship training.",
+    "category": "Churches"
+  },
+  {
+    "id": "g4",
+    "src": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&auto=format&fit=crop&q=80",
+    "alt": "Youth in a classroom",
+    "caption": "Youth program graduation — eight students completed a leadership track.",
+    "category": "Events"
+  },
+  {
+    "id": "g5",
+    "src": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800&auto=format&fit=crop&q=80",
+    "alt": "Machu Picchu mountain vista",
+    "caption": "The breathtaking landscapes that framed years of travel between villages.",
+    "category": "Peru Landscapes"
+  },
+  {
+    "id": "g6",
+    "src": "https://images.unsplash.com/photo-1488526539445-edaef1f0f6c0?w=800&auto=format&fit=crop&q=80",
+    "alt": "Volunteers distributing supplies",
+    "caption": "Humanitarian aid distribution during a seasonal flooding response.",
+    "category": "Ministry Work"
+  },
+  {
+    "id": "g7",
+    "src": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&auto=format&fit=crop&q=80",
+    "alt": "Team members standing together",
+    "caption": "Local pastors and mission partners at an annual fellowship gathering.",
+    "category": "Events"
+  },
+  {
+    "id": "g8",
+    "src": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&auto=format&fit=crop&q=80",
+    "alt": "Mountain valley in the Andes",
+    "caption": "A remote highland valley reached after a full day of travel.",
+    "category": "Peru Landscapes"
+  },
+  {
+    "id": "g9",
+    "src": "https://images.unsplash.com/photo-1503676260728-1c1da654ceb2?w=800&auto=format&fit=crop&q=80",
+    "alt": "Bible study group",
+    "caption": "Women's Bible fellowship — a cornerstone of weekly ministry.",
+    "category": "Ministry Work"
+  },
+  {
+    "id": "g10",
+    "src": "https://images.unsplash.com/photo-1544735716-392fe2489ff1?w=800&auto=format&fit=crop&q=80",
+    "alt": "Historic church facade in South America",
+    "caption": "Historic church in a colonial town — a hub for regional gatherings.",
+    "category": "Churches"
+  },
+  {
+    "id": "g11",
+    "src": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&auto=format&fit=crop&q=80",
+    "alt": "Village homes on a mountainside",
+    "caption": "A highland village where Daniel spent three years in partnership.",
+    "category": "Communities"
+  },
+  {
+    "id": "g12",
+    "src": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&auto=format&fit=crop&q=80",
+    "alt": "Peruvian coastal landscape",
+    "caption": "The diverse beauty of Peru — from coast to highland in a single journey.",
+    "category": "Peru Landscapes"
+  }
+]

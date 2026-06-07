@@ -1,0 +1,64 @@
+{
+  "overview": "Over eight years in Peru, ministry unfolded through deep local partnerships — planting seeds of faith, walking alongside pastors, and responding to real needs in both city and village contexts.",
+  "blocks": [
+    {
+      "id": "outreach",
+      "title": "Community Outreach",
+      "description": "Regular visits to neighborhoods and highland villages brought food distributions, medical referral support, and open conversations about faith. Outreach teams included local believers to ensure lasting connection.",
+      "image": "https://images.unsplash.com/photo-1488526539445-edaef1f0f6c0?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Volunteers serving food to community members"
+    },
+    {
+      "id": "church-planting",
+      "title": "Church Planting",
+      "description": "Working with Peruvian pastors, Daniel helped establish and strengthen house churches and small congregations. Training focused on biblical preaching, prayer, and sustainable local leadership.",
+      "image": "https://images.unsplash.com/photo-1438030088763-7e693ecd86f8?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Church interior with wooden pews"
+    },
+    {
+      "id": "discipleship",
+      "title": "Teaching & Discipleship",
+      "description": "Weekly Bible studies, one-on-one mentoring, and leadership workshops equipped believers to grow in faith and serve their communities. Materials were developed in Spanish with cultural sensitivity.",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c1da654ceb2?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Small group studying together"
+    },
+    {
+      "id": "humanitarian",
+      "title": "Humanitarian Work",
+      "description": "Practical aid addressed urgent needs — clean water projects, school supplies, and emergency relief after seasonal flooding. Every act of service opened doors for gospel-centered relationships.",
+      "image": "https://images.unsplash.com/photo-1469571486292-7bdba580a7ea?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Hands offering help and support"
+    },
+    {
+      "id": "youth",
+      "title": "Youth Programs",
+      "description": "Sports ministries, music workshops, and after-school tutoring gave young people a safe community. Many youth came to faith and now lead peer Bible studies in their neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Youth gathered in a classroom setting"
+    },
+    {
+      "id": "partnerships",
+      "title": "Local Partnerships",
+      "description": "Collaboration with Peruvian churches, NGOs, and community leaders ensured ministry was culturally grounded and locally owned. Partnership remains the foundation of ongoing impact.",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Group of people joining hands in unity"
+    }
+  ],
+  "programs": [
+    "Women's Bible fellowship groups",
+    "Highland village outreach circuits",
+    "Youth sports and discipleship nights",
+    "Pastoral leadership training intensives",
+    "School supply and literacy support",
+    "Emergency flood relief coordination",
+    "Spanish worship resource development",
+    "Short-term mission team hosting"
+  ],
+  "partnerships": [
+    "Iglesia Vida Nueva, Lima",
+    "Andes Community Development Network",
+    "Peruvian Youth Mission Collective",
+    "Highland Pastors Fellowship",
+    "Global Missions Fellowship (sending org)"
+  ]
+}

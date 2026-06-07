@@ -1,0 +1,30 @@
+[
+  {
+    "id": "churches",
+    "label": "Churches Supported",
+    "value": "12+",
+    "description": "Partnered with local congregations for worship, teaching, and leadership development.",
+    "icon": "church"
+  },
+  {
+    "id": "communities",
+    "label": "Communities Served",
+    "value": "24",
+    "description": "Urban neighborhoods and highland villages reached through outreach and discipleship.",
+    "icon": "users"
+  },
+  {
+    "id": "programs",
+    "label": "Outreach Programs",
+    "value": "8",
+    "description": "Youth ministry, women's fellowship, humanitarian aid, and Bible teaching initiatives.",
+    "icon": "heart-handshake"
+  },
+  {
+    "id": "years",
+    "label": "Years in Peru",
+    "value": "8",
+    "description": "A full season of faithful service from arrival to transition and ongoing partnership.",
+    "icon": "calendar"
+  }
+]

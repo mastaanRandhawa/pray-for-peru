@@ -1,0 +1,50 @@
+{
+  "biography": [
+    {
+      "id": "canada",
+      "title": "Roots in Canada",
+      "paragraphs": [
+        "Daniel Mckinley grew up in a small Ontario town where faith was woven into everyday family life. Sunday worship, youth group, and summers spent volunteering at a local food bank shaped his early understanding of service.",
+        "After completing his studies in education, he spent several years teaching in Canada while actively serving on his home church's missions committee."
+      ],
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Peaceful Canadian landscape with mountains and lake",
+      "imagePosition": "right"
+    },
+    {
+      "id": "calling",
+      "title": "A Calling to Missions",
+      "paragraphs": [
+        "During a short-term mission trip to Central America, Daniel sensed a deep conviction to pursue full-time overseas ministry. Years of prayer, mentorship, and language study followed as he prepared to serve abroad.",
+        "Supported by his sending church and family, he completed cross-cultural training and received appointment to Peru in 2015."
+      ],
+      "image": "https://images.unsplash.com/photo-1438030088763-7e693ecd86f8?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Open Bible on a wooden table",
+      "imagePosition": "left"
+    }
+  ],
+  "missionWork": [
+    {
+      "id": "why-peru",
+      "title": "Why Peru",
+      "paragraphs": [
+        "Peru's rich cultural heritage and spiritual openness presented both opportunity and challenge. Daniel was drawn to communities where the gospel had been planted but local leadership needed encouragement and equipping.",
+        "He partnered with Peruvian pastors to strengthen churches, mentor young believers, and extend practical compassion to families facing poverty."
+      ],
+      "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Historic architecture in Peru",
+      "imagePosition": "right"
+    },
+    {
+      "id": "challenges",
+      "title": "Challenges & Successes",
+      "paragraphs": [
+        "Ministry in the highlands meant long travel, language barriers, and seasons of isolation. Yet Daniel witnessed churches grow in confidence, youth find purpose in Christ, and women gather for fellowship and Bible study.",
+        "Among his greatest joys were baptisms, the launch of a children's education program, and seeing Peruvian leaders step into preaching and pastoral care."
+      ],
+      "image": "https://images.unsplash.com/photo-1526392060635-9d8bd978258f?w=900&auto=format&fit=crop&q=80",
+      "imageAlt": "Community gathering outdoors",
+      "imagePosition": "left"
+    }
+  ]
+}
