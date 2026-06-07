@@ -1,15 +1,18 @@
+export interface Affiliation {
+  name: string;
+  url: string;
+}
+
 export interface SiteContent {
   name: string;
   siteTitle: string;
   tagline: string;
   missionStatement: string;
   email: string;
-  serviceYears: string;
   location: string;
   intro: string;
-  orgName?: string;
-  orgUrl?: string;
   prayerInfo?: string;
+  affiliations?: Affiliation[];
 }
 
 export interface Highlight {

@@ -1,7 +1,10 @@
 import {
+  BookOpen,
   Calendar,
   Church,
+  GraduationCap,
   HeartHandshake,
+  Plane,
   Users,
   type LucideIcon,
 } from "lucide-react";
@@ -14,6 +17,9 @@ const iconMap: Record<string, LucideIcon> = {
   users: Users,
   "heart-handshake": HeartHandshake,
   calendar: Calendar,
+  plane: Plane,
+  "book-open": BookOpen,
+  "graduation-cap": GraduationCap,
 };
 
 interface HighlightsGridProps {
@@ -24,14 +30,18 @@ interface HighlightsGridProps {
 
 export function HighlightsGrid({
   highlights,
-  title = "Ministry Highlights",
-  subtitle = "Key accomplishments from years of faithful service in Peru.",
+  title = "Prayer Highlights",
+  subtitle = "Upcoming ministry needs and ways you can pray with us.",
 }: HighlightsGridProps) {
   return (
-    <section className="bg-white-smoke-50 py-20" aria-labelledby="highlights-heading">
+    <section
+      id="prayer-highlights"
+      className="bg-white-smoke-50 py-20"
+      aria-labelledby="highlights-heading"
+    >
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="mb-12 text-center">
-          <Badge className="mb-4">Impact</Badge>
+          <Badge className="mb-4">Prayer</Badge>
           <h2 id="highlights-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
             {title}
           </h2>
@@ -47,7 +57,7 @@ export function HighlightsGrid({
                   <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Icon className="h-5 w-5" aria-hidden="true" />
                   </div>
-                  <CardTitle className="text-4xl font-bold text-primary">{item.value}</CardTitle>
+                  <CardTitle className="text-xl font-bold text-primary">{item.value}</CardTitle>
                   <CardDescription className="text-base font-medium text-foreground">
                     {item.label}
                   </CardDescription>

@@ -65,7 +65,6 @@ export const homeJsonLd = [
     "@type": "Person",
     name: siteContent.name,
     description: siteContent.intro,
-    email: siteContent.email,
     jobTitle: "Missionary",
     nationality: "Canadian",
   },

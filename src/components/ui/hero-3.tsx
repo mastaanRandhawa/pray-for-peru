@@ -1,16 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import type { CtaLink } from "@/types/content";
 
 interface AnimatedMarqueeHeroProps {
   tagline: string;
   title: React.ReactNode;
+  backgroundTitle?: string;
   description: string;
-  primaryCta: CtaLink;
-  secondaryCta: CtaLink;
   images: { src: string; alt: string }[];
   className?: string;
 }
@@ -27,9 +23,8 @@ const FADE_IN_ANIMATION_VARIANTS = {
 export const AnimatedMarqueeHero: React.FC<AnimatedMarqueeHeroProps> = ({
   tagline,
   title,
+  backgroundTitle,
   description,
-  primaryCta,
-  secondaryCta,
   images,
   className,
 }) => {
@@ -53,27 +48,38 @@ export const AnimatedMarqueeHero: React.FC<AnimatedMarqueeHeroProps> = ({
           {tagline}
         </motion.div>
 
-        <motion.h1
-          initial="hidden"
-          animate="show"
-          variants={{
-            hidden: {},
-            show: { transition: { staggerChildren: 0.1 } },
-          }}
-          className="text-5xl font-bold tracking-tighter text-foreground md:text-7xl"
-        >
-          {typeof title === "string"
-            ? title.split(" ").map((word, i) => (
-                <motion.span
-                  key={i}
-                  variants={FADE_IN_ANIMATION_VARIANTS}
-                  className="inline-block"
-                >
-                  {word}&nbsp;
-                </motion.span>
-              ))
-            : title}
-        </motion.h1>
+        <div className="relative flex items-center justify-center px-2">
+          {backgroundTitle && (
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute left-1/2 top-1/2 w-max max-w-[95vw] -translate-x-1/2 -translate-y-1/2 select-none whitespace-nowrap font-serif text-[clamp(2.5rem,11vw,9rem)] font-bold leading-none tracking-tighter text-foreground/[0.07]"
+            >
+              {backgroundTitle}
+            </span>
+          )}
+
+          <motion.h1
+            initial="hidden"
+            animate="show"
+            variants={{
+              hidden: {},
+              show: { transition: { staggerChildren: 0.1 } },
+            }}
+            className="relative text-5xl font-bold tracking-tighter text-foreground md:text-7xl"
+          >
+            {typeof title === "string"
+              ? title.split(" ").map((word, i) => (
+                  <motion.span
+                    key={i}
+                    variants={FADE_IN_ANIMATION_VARIANTS}
+                    className="inline-block"
+                  >
+                    {word}&nbsp;
+                  </motion.span>
+                ))
+              : title}
+          </motion.h1>
+        </div>
 
         <motion.p
           initial="hidden"
@@ -84,21 +90,6 @@ export const AnimatedMarqueeHero: React.FC<AnimatedMarqueeHeroProps> = ({
         >
           {description}
         </motion.p>
-
-        <motion.div
-          initial="hidden"
-          animate="show"
-          variants={FADE_IN_ANIMATION_VARIANTS}
-          transition={{ delay: 0.6 }}
-          className="mt-8 flex flex-wrap items-center justify-center gap-4"
-        >
-          <Button asChild>
-            <Link to={primaryCta.href}>{primaryCta.label}</Link>
-          </Button>
-          <Button variant="outline" asChild>
-            <Link to={secondaryCta.href}>{secondaryCta.label}</Link>
-          </Button>
-        </motion.div>
       </div>
 
       <div className="absolute bottom-0 left-0 h-1/3 w-full pt-10 [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)] md:h-2/5 md:pt-14">

@@ -1,7 +1,8 @@
-import { Mail, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 import { Seo } from "@/components/Seo";
 import { PageHeader } from "@/components/sections/PageHeader";
 import { ContactForm } from "@/components/sections/ContactForm";
+import { AffiliationsList } from "@/components/sections/AffiliationsList";
 import { siteContent } from "@/lib/content";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -21,23 +22,6 @@ export default function ContactPage() {
 
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-20 md:grid-cols-2 md:px-6">
         <div className="space-y-6">
-          <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-xl">
-                <Mail className="h-5 w-5 text-primary" aria-hidden="true" />
-                Email
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <a
-                href={`mailto:${siteContent.email}`}
-                className="text-muted-foreground transition-colors hover:text-foreground"
-              >
-                {siteContent.email}
-              </a>
-            </CardContent>
-          </Card>
-
           {siteContent.prayerInfo && (
             <Card>
               <CardHeader>
@@ -54,20 +38,13 @@ export default function ContactPage() {
             </Card>
           )}
 
-          {siteContent.orgUrl && (
+          {siteContent.affiliations && siteContent.affiliations.length > 0 && (
             <Card>
               <CardHeader>
-                <CardTitle className="text-xl">Ministry Organization</CardTitle>
+                <CardTitle className="text-xl">Affiliations</CardTitle>
               </CardHeader>
               <CardContent>
-                <a
-                  href={siteContent.orgUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-primary hover:underline"
-                >
-                  {siteContent.orgName}
-                </a>
+                <AffiliationsList />
               </CardContent>
             </Card>
           )}

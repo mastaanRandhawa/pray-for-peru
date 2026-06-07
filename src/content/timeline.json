@@ -1,50 +1,44 @@
 [
   {
     "id": "tl1",
-    "year": "1990s",
-    "title": "Early Life in Canada",
-    "description": "Raised in Ontario with a strong church community; developed a heart for teaching and service."
+    "year": "Commended",
+    "title": "Commissioned to Missions",
+    "description": "Daniel & Mirtha were commended by their sending church and MSC Canada to serve as missionaries."
   },
   {
     "id": "tl2",
-    "year": "2010",
-    "title": "First Mission Trip",
-    "description": "A short-term trip to Central America sparked a calling to full-time overseas ministry."
+    "year": "2015",
+    "title": "Arrival in Peru",
+    "description": "Settled in Ayacucho and began building relationships with local churches and community leaders."
   },
   {
     "id": "tl3",
-    "year": "2013",
-    "title": "Missionary Training",
-    "description": "Completed cross-cultural training, language study, and ordination preparation with sending church support."
+    "year": "2017",
+    "title": "Highland Expansion",
+    "description": "Extended ministry to Andean villages — launching outreach circuits and fellowship groups."
   },
   {
     "id": "tl4",
-    "year": "2015",
-    "title": "Arrival in Peru",
-    "description": "Settled in Lima and began building relationships with local churches and community leaders."
+    "year": "2019",
+    "title": "Youth Program Launch",
+    "description": "Established sports and discipleship programs reaching young people across multiple neighborhoods."
   },
   {
     "id": "tl5",
-    "year": "2017",
-    "title": "Highland Expansion",
-    "description": "Extended ministry to Andean villages — launching outreach circuits and women's fellowship groups."
-  },
-  {
-    "id": "tl6",
-    "year": "2019",
-    "title": "Youth Program Launch",
-    "description": "Established sports and discipleship programs reaching over 60 young people across three neighborhoods."
-  },
-  {
-    "id": "tl7",
     "year": "2021",
     "title": "Flood Relief Response",
     "description": "Coordinated emergency aid and pastoral care for families affected by severe seasonal flooding."
   },
   {
-    "id": "tl8",
+    "id": "tl6",
     "year": "2023",
     "title": "Transition & Ongoing Partnership",
     "description": "Returned to Canada while maintaining close partnership with Peruvian leaders who continue the work."
+  },
+  {
+    "id": "tl7",
+    "year": "Upcoming",
+    "title": "Return to Peru",
+    "description": "Preparing to return to the field — pray for provision, health, and open doors for ministry."
   }
 ]

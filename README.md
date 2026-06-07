@@ -18,7 +18,15 @@ npm run build
 npm run preview
 ```
 
-The production build outputs static files to `dist/`. Deploy that folder to any static host (Netlify, Vercel, GitHub Pages, etc.).
+The production build outputs static files to `dist/`.
+
+## GitHub Pages
+
+This repo deploys automatically to GitHub Pages on every push to `main`.
+
+Live site: [https://mastaanRandhawa.github.io/pray-for-peru/](https://mastaanRandhawa.github.io/pray-for-peru/)
+
+The Vite `base` path is set to `/pray-for-peru/` for project-page hosting. To deploy elsewhere, update `base` in `vite.config.ts`.
 
 ## Editing Content
 

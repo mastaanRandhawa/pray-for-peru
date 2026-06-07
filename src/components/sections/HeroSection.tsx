@@ -6,9 +6,8 @@ export function HeroSection() {
     <AnimatedMarqueeHero
       tagline={siteContent.tagline}
       title={siteContent.name}
+      backgroundTitle={siteContent.name}
       description={siteContent.missionStatement}
-      primaryCta={{ label: "Learn More", href: "/about" }}
-      secondaryCta={{ label: "View Gallery", href: "/gallery" }}
       images={heroImagesContent}
     />
   );
